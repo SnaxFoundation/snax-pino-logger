@@ -1,6 +1,6 @@
 {
   "name": "snax-pino-logger",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/SnaxFoundation/snax-pino-logger.git",
   "author": "bee-warrior <casual.bee.warrior@gmail.com>",

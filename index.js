@@ -18,7 +18,7 @@ const initialConfig = {
 };
 
 const createLogger = config => pino({ ...initialConfig, ...config });
-const createExpressLogger = logger => expressPino(logger);
+const createExpressLogger = options => expressPino(options);
 
 module.exports = {
   createLogger,
