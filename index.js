@@ -6,9 +6,6 @@ const mapValuesDeep = (v, callback) =>
   _.isObject(v) ? _.mapValues(v, v => mapValuesDeep(v, callback)) : callback(v);
 
 const initialConfig = {
-  name: "platform-updater",
-  prettyPrint: process.env.LOG_PRETTY || false,
-  level: process.env.LOG_LEVEL || "debug",
   serializers: {
     [Symbol.for("pino.*")]: obj => {
       const result = mapValuesDeep(obj, value => {
