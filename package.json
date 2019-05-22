@@ -1,5 +1,5 @@
 {
-  "name": "snax-pino-logger",
+  "name": "@snaxfoundation/snax-pino-logger",
   "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/SnaxFoundation/snax-pino-logger.git",
@@ -10,5 +10,8 @@
     "lodash": "^4.17.11",
     "pino": "^5.12.5",
     "pino-pretty": "^3.0.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
 }
